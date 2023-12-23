@@ -26,7 +26,7 @@ imagePaths = sorted(list(utils_paths.list_images('./data/ali-ui')))
 random.seed(42)
 random.shuffle(imagePaths)
 
-image_size = 256
+image_size = 224
 # 遍历读取数据
 for imagePath in imagePaths:
     # 读取图像数据
